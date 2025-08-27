@@ -5,7 +5,7 @@ This repository contains the code developed for my COMPE 596 final project: an e
 ## Features
 
 1. **Point-Cloud Generation**  
-   - Defines an \(N\times N\times N\) diamond lattice (FCC sites + two-atom basis) with OpenMP-parallelized C++ code to emit a TetGen `.node` file.
+   - Defines an N x N x N diamond lattice (FCC sites + two-atom basis) with OpenMP-parallelized C++ code to emit a TetGen `.node` file.
 
 2. **Mesh Construction**  
    - Invokes TetGen on the generated `.node` file to produce `.ele` (tet connectivity) and `.face` (surface triangles).
